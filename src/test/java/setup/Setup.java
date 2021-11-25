@@ -8,7 +8,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class Setup {
 	public WebDriver setup(String driverType) {
 		//Make a general setup for all kind of driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\MADELEINY\\Documents\\CHRISTIAN\\Nagarro\\selenium\\chromedriver_win32 (1)\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Christian Bautista\\Documents\\nagarro\\browsers\\chromedriver.exe");
         WebDriver driver = null;
         if(driverType == "chrome") driver = new ChromeDriver();
         else if(driverType == "firefox") driver = new FirefoxDriver();
